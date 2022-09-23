@@ -1,0 +1,15 @@
+Write a Python Program to put the even and odd elements in a list into two different lists.
+
+a=[]
+even=[]
+odd=[]
+n=int(input())
+for i in range(0,n):
+    a.append(int(input()))
+for i in a:
+    if(i%2==0):
+        even.append(i)
+    else:
+        odd.append(i)
+print("The even list",even)
+print("The odd list",odd)
