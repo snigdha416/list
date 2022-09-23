@@ -1,0 +1,10 @@
+Python Program to swap the first and last value of a list. Take the number of elements in the list and store it in a variable .Accept the values into the list using a for loop and insert them into the list. Using a temporary variable, switch the first and last element in the list. Print the newly formed list. Exit.
+
+a=[]
+n=int(input())
+for i in range(1,n+1):
+    a.append(int(input()))
+c=a[0]
+a[0]=a[n-1]
+a[n-1]=c
+print(a)
